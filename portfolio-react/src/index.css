@@ -5,6 +5,10 @@
   scroll-behavior: smooth;
 }
 
+html {
+  scroll-padding-top: 80px; /* Offset untuk navbar fixed */
+}
+
 :root {
   --primary-color: #0d6efd;
   --secondary-color: #e2edff;
@@ -40,7 +44,7 @@ code {
 }
 
 section {
-  padding: 80px 0;
+  padding: 100px 0 80px 0; /* Padding atas lebih besar untuk spacing dari navbar */
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -115,8 +119,12 @@ img {
 
 /* Responsive */
 @media (max-width: 768px) {
+  html {
+    scroll-padding-top: 70px; /* Offset lebih kecil untuk mobile */
+  }
+
   section {
-    padding: 60px 0;
+    padding: 80px 0 60px 0; /* Padding disesuaikan untuk mobile */
   }
   
   .container {
