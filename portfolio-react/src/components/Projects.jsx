@@ -14,8 +14,8 @@ const Projects = () => {
       image: 'https://via.placeholder.com/400x300/667eea/ffffff?text=E-Commerce',
       category: 'web',
       technologies: ['React', 'Redux', 'Tailwind CSS', 'Firebase'],
-      github: '#',
-      demo: '#',
+      github: 'https://github.com/faridhrizaldy/ecommerce-platform',
+      demo: 'http://localhost:5173',
       featured: true
     },
     {
@@ -32,13 +32,13 @@ const Projects = () => {
     {
       id: 3,
       title: 'Portfolio Website',
-      description: 'Website portfolio interaktif dengan animasi modern dan design responsif.',
+      description: 'Website portfolio interaktif dengan animasi modern, smooth scrolling, dan design responsif. Menampilkan project showcase dengan filter dan contact form.',
       image: 'https://via.placeholder.com/400x300/4facfe/ffffff?text=Portfolio',
       category: 'web',
-      technologies: ['React', 'Framer Motion', 'CSS3'],
-      github: '#',
-      demo: '#',
-      featured: false
+      technologies: ['React', 'Vite', 'Framer Motion', 'CSS3'],
+      github: 'https://github.com/faridhrizaldy/portfolio',
+      demo: 'http://localhost:3000',
+      featured: true
     },
     {
       id: 4,
